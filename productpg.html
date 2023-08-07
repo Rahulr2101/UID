@@ -17,11 +17,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <style>
-        /* Added CSS for evenly sized cards */
-        .product-card {
-            width: 100%;
-            height: 100%;
-        }
+  
+  .card-img-top {
+    height: 200px; /* Adjust the height value as per your preference */
+    object-fit: cover; /* This property ensures the image retains its aspect ratio and covers the entire container */
+  }
+  .section-cards {
+    margin-top: 100px; /* Adjust the margin value as needed */
+  }
+</style>
+
     </style>
 </head>
 <body>
@@ -53,140 +58,344 @@
         
       </header>
       <div style="margin-bottom: 50px;">
+        <section class="section-cards" style="background-color: #eee;">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">20%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/product-1.png"
+                    class="card-img-top" alt="Laptop" />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹99</s></p>
+                    </div>
         
-      </div>
-    <h1 class="text-center my-4">Our Products</h1>
-    <div class="container">
-        <div class="row row-cols-3">
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-1.png" class="card-img-top img-fluid" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Tomato</h5>
-                        <p class="card-text"></p>₹ 99(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Tomato</h5>
+                      <h5 class="text-dark mb-0">₹89</h5>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-2.png" class="card-img-top img-fluid" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Onion</h5>
-                        <p class="card-text">₹ 65(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                     
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-3.png" class="card-img-top img-fluid" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Brinjal</h5>
-                        <p class="card-text">₹ 70(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                   
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">35%</p>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-4.png" class="card-img-top img-fluid" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Cauliflower</h5>
-                        <p class="card-text">₹ 99(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                  <img src="./images/bgR/beetroot.jpg"
+                    class="card-img-top" alt="Laptop" />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹199</s></p>
                     </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Beetroot</h5>
+                      <h5 class="text-dark mb-0">₹99</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                     
+                      <div class="ms-auto text-warning">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">10%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/watermelon.jpeg"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹289</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Watermelon</h5>
+                      <h5 class="text-dark mb-0">₹199</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">30%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/watermelon.jpeg"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹199</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Watermelon</h5>
+                      <h5 class="text-dark mb-0">₹120</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">40%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/product-2.png"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹500</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Onione</h5>
+                      <h5 class="text-dark mb-0">₹250</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">15%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/product-8.png"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹150</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Green peas</h5>
+                      <h5 class="text-dark mb-0">₹109</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">25%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/product-4.png"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>$1399</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Cauliflower</h5>
+                      <h5 class="text-dark mb-0">$1299</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">40%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/product-5.png"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹256</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Stawberry</h5>
+                      <h5 class="text-dark mb-0">₹200</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card">
+                  <div class="d-flex justify-content-between p-3">
+                    <p class="lead mb-0">Today's Combo Offer</p>
+                    <div
+                      class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
+                      style="width: 35px; height: 35px;">
+                      <p class="text-white mb-0 small">30%</p>
+                    </div>
+                  </div>
+                  <img src="./images/bgR/pumpkie.jpg"
+                    class="card-img-top"  />
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="small"><a href="#!" class="text-muted">Vegitable</a></p>
+                      <p class="small text-danger"><s>₹139</s></p>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                      <h5 class="mb-0">Watermelon</h5>
+                      <h5 class="text-dark mb-0">₹100</h5>
+                    </div>
+        
+                    <div class="d-flex justify-content-between mb-2">
+                      
+                      <div class="ms-auto text-warning">
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-5.png" class="card-img-top img-fluid" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Strawberry</h5>
+          </div>
+        </section>
+     
 
-
-<p class="card-text">₹ 99(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-6.png" class="card-img-top img-fluid" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Cabbage</h5>
-                        <p class="card-text">₹ 63(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
+        <!-- end of row -->
         </div>
         
         
     </div>
-    <div class="container">
-        <div class="row row-cols-3">
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-7.png" class="card-img-top img-fluid" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Carrot</h5>
-                        <p class="card-text">₹ 87(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-8.png" class="card-img-top img-fluid" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Beans </h5>
-                        <p class="card-text">₹54(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/product-6.png" class="card-img-top img-fluid" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Broccoli</h5>
-                        <p class="card-text">₹ 74(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/watermelon.jpeg" class="card-img-top img-fluid" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Watermelon </h5>
-                        <p class="card-text">₹ 68(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/apple.jpg" class="card-img-top img-fluid" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Apple</h5>
-                        <p class="card-text">₹ 99(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card product-card">
-                    <img style="height: 200px" src="images/bgR/beetroot.jpg" class="card-img-top img-fluid" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Beetroot</h5>
-                        <p class="card-text">₹ 99(per kg)</p>
-                        <a href="#" class="btn btn-primary">Add to cart</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
         
         
     </div>

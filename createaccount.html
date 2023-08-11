@@ -7,14 +7,14 @@
 
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
-<script src="loginvalidate.js"></script>
+<script src="emailverify.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <div class="box-form">
 	<div class="left">
 		<div class="overlay">
-		<h1>Welcome Back.</h1>
+		<h1>Welcome.</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 		Curabitur et est sed felis aliquet sollicitudin</p>
 		<span>
@@ -27,10 +27,11 @@
 	
 	
 		<div class="right">
-		<h5>Login</h5>
-		<p>Don't have an account? <a href="createaccount.html">Creat Your Account</a> it takes less than a minute</p>
+		<h5>Account</h5>
+		<p>Have an account? <a href="#">Login</a> </p>
 		<div class="inputs">
 			<input type="text" id="username" placeholder="user name">
+            <input type="text" id="email" placeholder="Email id">
 			<br>
 			<input type="password" id="password" placeholder="password">
 		</div>
@@ -43,15 +44,15 @@
 		<input type="checkbox" name="item" checked/>
 		<span class="text-checkbox">Remember me</span>
 	</label>
-			<p>forget password?</p>
+			
 		</div>
 			
 			<br>
-			<button id="submit" onclick="validate()">Login</button>
+			<button id="submit" onclick="verifyEmail()">Create</button>
 	</div>
 	
 </div>
-<!-- partial -->
+
   
 </body>
 </html>

@@ -22,6 +22,7 @@ function verifyEmail() {
     }
 
     if (isDomainValid) {
+        window.location = "/index.html"; 
     } else {
         alert("Invalid email domain")
     }
